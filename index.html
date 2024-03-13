@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Your Name - Personal Website</title>
+  <title>Francesco Periti</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -25,20 +25,39 @@
 <div class="w3-top">
   <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Your Name</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-theme-l1">Francesco Periti</a>
     <a href="research.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Research</a>
     <a href="teaching.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Teaching</a>
     <a href="cv.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">CV</a>
   </div>
 </div>
 
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <!-- Image in the sidebar -->
+  <div class="w3-container">
+    <h5>Profile Picture</h5>
+    <img src="photo.png" alt="Profile Picture" style="width:100%">
+  </div>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+  
 <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
 <div class="w3-main" style="margin-left:250px">
-
   <div id="home" class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Home Page</h1>
-      <p>Welcome to my personal website.</p>
+      <h1 class="w3-text-teal">Francesco Periti</h1>
+      <p>With a Master's Degree in Computer Science and an ongoing PhD at the University of Milan, Francesco is a dedicated researcher passionate about Natural Language Processing and Computational Linguistics. His expertise in these fields focuses on modeling language change using advanced computational models. Francesco possesses solid proficiency in programming languages, particularly Python, which he effectively utilizes in his research pursuits. Francesco's work experience spans prestigious institutions such as the University of Gothenburg, Queen Mary University of London, and KU Leuven, where he participated in the international "Change is Key!" program. He has also contributed to EU-funded projects like TACITROOTS and VAST. In addition to his research, Francesco is actively involved in teaching, co-supervising theses, and reviewing articles for prestigious journals and conferences.</p>
     </div>
     <div class="w3-third w3-container">
       <!-- You can add ads or other content here if needed -->
