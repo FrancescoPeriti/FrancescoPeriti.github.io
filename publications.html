@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Francesco Periti</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+    .w3-sidebar {
+      z-index: 3;
+      width: 250px;
+      top: 43px;
+      bottom: 0;
+      height: inherit;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-theme-l1">Francesco Periti</a>
+    <a href="publications.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Publications</a>
+    <a href="teaching.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Teaching</a>
+    <a href="Europass-CV.pdf" class="w3-bar-item w3-button w3-hide-small w3-hover-white" download="francesco-periti-europass-cv.pdf">CV</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <!-- Image in the sidebar -->
+  <div class="w3-container">
+    <img src="photo.png" alt="Profile Picture" style="width:100%;border:3px solid black;">
+  </div>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://scholar.google.com/citations?user=afg5fYAAAAAJ"><img src="icons/scholar.png" style="width:0.5cm; margin-right:4px">Google scholar</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://orcid.org/0000-0001-8388-2317"><img src="icons/orcid.png" style="width:0.5cm; margin-right:4px">ORCiD</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://www.scopus.com/authid/detail.uri?authorId=57312581800"><img src="icons/scopus.png" style="width:0.5cm; margin-right:4px">Scopus</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+  
+  <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+  <div class="w3-main" style="margin-left:250px">
+    <div id="Publications" class="w3-row w3-padding-64">
+      <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Publications</h1>
+
+<!-- New ref. -->
+      <div style="display: flex; align-items: center;">
+        <div style="width: 50%; float: left;">
+          <p style="margin-right: 15px; font-size: 12px;"><b>Periti, Francesco</b>, and Tahmasebi, Nina. (2024). A Systematic Comparison of Contextualized Word Embeddings for Lexical Semantic Change. arXiv. <a href="https://arxiv.org/abs/2402.12011">https://arxiv.org/abs/2402.12011</a></p>
+        </div>
+        <div style="width: 50%; float: right;">
+          <code style="font-size: 10px; line-height: 12px; display:block;">@Misc{periti2024systematic,<br>
+            title = {{A Systematic Comparison of Contextualized Word Embeddings for Lexical Semantic Change}}, <br>
+            author = {Francesco Periti and Nina Tahmasebi},<br>
+            year = {2024},<br>
+            eprint = {2402.12011},<br>
+            archivePrefix = {arXiv. Accepted at NAACL2024.},<br>
+            primaryClass = {cs.CL},<br>
+            month = mar,<br>
+            url = {https://arxiv.org/abs/2402.12011},<br>
+            doi = {doi.org/10.48550/arXiv.2402.12011}}
+          </code>
+        </div>
+      </div>
+      <hr>
+
+<!-- New ref. -->
+      <div style="display: flex; align-items: center;">
+        <div style="width: 50%; float: left;">
+          <p style="margin-right: 15px; font-size: 12px;"><b>Periti, Francesco</b>, Dubossarsky, Haim, and Tahmasebi, Nina. (2024). (Chat)GPT v BERT: Dawn of Justice for Semantic Change Detection. In Findings of the Association for Computational Linguistics: EACL 2024. St. Julians, Malta: Association for Computational Linguistics. <a href="https://arxiv.org/abs/2401.14040">https://arxiv.org/abs/2401.14040</a></p>
+        </div>
+        <div style="width: 50%; float: right;">
+          <code style="font-size: 10px; line-height: 12px; display:block;">
+            @InProceedings{periti2024chatgpt,<br>
+            title = {{(Chat)GPT v BERT: Dawn of Justice for Semantic Change Detection}},<br>
+            author = {Francesco Periti and Haim Dubossarsky and Nina Tahmasebi},<br>
+            year = {2024},<br>
+            booktitle = "Findings of the Association for Computational Linguistics: EACL 2024",<br>
+            month = mar,<br>
+            year = "2024",<br>
+            address = "St. Julians, Malta",<br>
+            publisher = "Association for Computational Linguistics",<br>
+            url = "https://arxiv.org/abs/2401.14040",<br>
+            doi = "https://doi.org/10.48550/arXiv.2401.14040"}
+        <br>
+          </code>
+        </div>
+      </div>
+      <hr>
+
+<!-- New ref. -->
+      <div style="display: flex; align-items: center;">
+        <div style="width: 50%; float: left;">
+          <p style="margin-right: 15px; font-size: 12px;">Castano, Silvana, Ferrara, Alfio, Montanelli, Stefano, and <b>Periti, Francesco</b>. (2024). Incremental Affinity Propagation based on Cluster Consolidation and Stratification. arXiv. <a href="https://arxiv.org/abs/2401.14439">https://arxiv.org/abs/2401.14439</a> </p>
+        </div>
+        <div style="width: 50%; float: right;">
+          <code style="font-size: 10px; line-height: 12px; display:block;">
+            @Misc{castano2024incremental,<br>
+            title = {{Incremental Affinity Propagation based on Cluster Consolidation and Stratification}},<br> 
+            author = {Silvana Castano and Alfio Ferrara and Stefano Montanelli and Francesco Periti},<br>
+            year = {2024},<br>
+            eprint = {2401.14439},<br>
+            archivePrefix = {arXiv},<br>
+            primaryClass = {cs.LG},<br>
+            month = jan,<br>
+            url = {https://arxiv.org/abs/2401.14439},<br>
+            doi = {doi.org/10.48550/arXiv.2401.14439}}
+          </code>
+        </div>
+      </div>
+      <hr>
+
+<!-- New ref. -->
+      <div style="display: flex; align-items: center;">
+        <div style="width: 50%; float: left;">
+          <p style="margin-right: 15px; font-size: 12px;"><b>Periti, Francesco</b>, Picascia, Sergio, Montanelli, Stefano, Ferrara, Alfio, and Tahmasebi, Nina. (2023). Studying Word Meaning Evolution through Incremental Semantic Shift Detection: A Case Study of Italian Parliamentary Speeches. TechRxiv. <a href="https://www.techrxiv.org/doi/full/10.36227/techrxiv.24210915.v1">https://www.techrxiv.org/doi/full/10.36227/techrxiv.24210915.v1</a></p>
+        </div>
+        <div style="width: 50%; float: right;">
+          <code style="font-size: 10px; line-height: 12px; display:block;">
+            @Misc{periti2023word,<br>
+            author = {Periti, Francesco and  Picascia, Sergio and  Montanelli, Stefano and Ferrara, Alfio and Tahmasebi, Nina},<br>
+            title = {{Studying Word Meaning Evolution through Incremental Semantic Shift Detection: A Case Study of Italian Parliamentary Speeches}},<br>
+            archivePrefix = {TechRxiv},<br>
+            year = {2023},<br>
+            month = oct,<br>
+            doi = {10.36227/techrxiv.24210915.v1},<br>
+            url = {https://www.techrxiv.org/doi/full/10.36227/techrxiv.24210915.v1}}
+          </code>
+        </div>
+      </div>
+      <hr>
+
+<!-- New ref. -->
+      <div style="display: flex; align-items: center;">
+        <div style="width: 50%; float: left;">
+          <p style="margin-right: 15px; font-size: 12px;">Curini, Luigi, Decadri, Silvia, Ferrara, Alfio, Montanelli, Stefano, Negri, Fedra, and <b>Periti, Francesco</b>. (2023). The Gender Gap in Issue Attention and Language Use within a Legislative Setting: An Application to the Italian Parliament (1948–2020). Politics & Gender, 20(1), 182–211. <a href="https://doi.org/10.1017/S1743923X2300051X">https://doi.org/10.1017/S1743923X2300051X</a></p>
+        </div>
+        <div style="width: 50%; float: right;">
+          <code style="font-size: 10px; line-height: 12px; display:block;">
+            @Article{curini2023gender, <br>
+            title = {{The Gender Gap in Issue Attention and Language Use within a Legislative Setting: An Application to the Italian Parliament (1948–2020)}},<br> 
+            volume = {20}, <br>
+            month = oct,<br>
+            doi = {10.1017/S1743923X2300051X}, <br>
+            number = {1}, <br>
+            journal = {Politics \& Gender}, <br>
+            author = {Curini, Luigi and Decadri, Silvia and Ferrara, Alfio and Montanelli, Stefano and Negri, Fedra and Periti, Francesco}, <br>
+            year = {2023}, <br>
+            pages = {182–211},<br>
+            url = {https://doi.org/10.1017/S1743923X2300051X}}
+          </code>
+        </div>
+      </div>
+      <hr>
+
+<!-- New ref. -->
+      <div style="display: flex; align-items: center;">
+        <div style="width: 50%; float: left;">
+          <p style="margin-right: 15px; font-size: 12px;"><b>Periti, Francesco</b>, and Dubossarsky, Haim. (2023). The Time-Embedding Travelers@WiC-ITA. In Proceedings of the Eighth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2023). Parma, Italy: CEUR.org. <a href="https://ceur-ws.org/Vol-3473/paper47.pdf">https://ceur-ws.org/Vol-3473/paper47.pdf</a></p>
+        </div>
+        <div style="width: 50%; float: right;">
+          <code style="font-size: 10px; line-height: 12px; display:block;">
+            @InProceedings{periti2023time,<br>
+            title = {{The Time-Embedding Travelers@WiC-ITA}}, <br>
+            author = {Periti, Francesco and Dubossarsky, Haim},<br>
+            booktitle = {Proceedings of the Eighth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2023)},<br>
+            publisher = {CEUR.org},<br>
+            year = {2023},<br>
+            month = sep,<br>
+            address = {Parma, Italy},<br>
+            url = {https://ceur-ws.org/Vol-3473/paper47.pdf}}
+          </code>
+        </div>
+      </div>
+      <hr>
+
+<!-- New ref. -->
+      <div style="display: flex; align-items: center;">
+        <div style="width: 50%; float: left;">
+          <p style="margin-right: 15px; font-size: 12px;"><b>Periti, Francesco</b>. (2023). Contextualised Semantic Shift Detection. In Proceedings of the 31st Symposium of Advanced Database Systems (SEBD) (pp. 735–741). Galzingano Terme, Italy: CEUR.org. <a href="https://ceur-ws.org/Vol-3478/paper81.pdf">https://ceur-ws.org/Vol-3478/paper81.pdf</a></p>
+        </div>
+        <div style="width: 50%; float: right;">
+          <code style="font-size: 10px; line-height: 12px; display:block;">
+            @InProceedings{periti2023contextualised,<br>
+            title = {{Contextualised Semantic Shift Detection}}, <br>
+            author = {Periti, Francesco},<br>
+            year = {2023},<br>
+            booktitle = {Proceedings of the 31st Symposium of Advanced Database Systems (SEBD)},<br>
+            publisher = {CEUR.org},<br>
+            month = jul,<br>
+            address = {Galzingano Terme, Italy},<br>
+            pages = {735--741},<br>
+            url = {https://ceur-ws.org/Vol-3478/paper81.pdf}}
+          </code>
+        </div>
+      </div>
+      <hr>
+
+<!-- New ref. -->
+      <div style="display: flex; align-items: center;">
+        <div style="width: 50%; float: left;">
+          <p style="margin-right: 15px; font-size: 12px;">Montanelli, Stefano, and <b>Periti, Francesco</b>. (2023). A survey on contextualised semantic shift detection. <a href="https://arxiv.org/pdf/2304.01666.pdf">https://arxiv.org/pdf/2304.01666.pdf</a></p>
+        </div>
+        <div style="width: 50%; float: right;">
+          <code style="font-size: 10px; line-height: 12px; display:block;">
+            @Misc{montanelli2023survey,<br>
+            title = {{A Survey on Contextualised Semantic Shift Detection}}, <br>
+            author = {Montanelli, Stefano and Periti, Francesco},<br>
+            year = {2023},<br>
+            eprint = {2304.01666},<br>
+            month = apr,<br>
+            archivePrefix = {arXiv},<br>
+            primaryClass = {cs.CL},<br>
+            url = {https://arxiv.org/pdf/2304.01666.pdf},<br>
+            doi = {https://doi.org/10.48550/arXiv.2304.01666}}
+          </code>
+        </div>
+      </div>
+      <hr>
+
+<!-- New ref. -->
+      <div style="display: flex; align-items: center;">
+        <div style="width: 50%; float: left;">
+          <p style="margin-right: 15px; font-size: 12px;">Castano, Silvana, Ferrara, Alfio, Montanelli, Stefano, and <b>Periti, Francesco</b>. (2022). Semantic shift detection in Vatican publications: A case study from Leo XIII to Francis. In Proceedings of the 30th Italian Symposium on Advanced Database Systems (SEBD) (Vol. 3194, pp. 231-243). CEUR-WS. <a href="https://ceur-ws.org/Vol-3194/paper29.pdf">https://ceur-ws.org/Vol-3194/paper29.pdf</a></p>
+        </div>
+        <div style="width: 50%; float: right;">
+          <code style="font-size: 10px; line-height: 12px; display:block;">
+            @InProceedings{castano2022semantic,<br>
+            title = {{Semantic Shift Detection in Vatican Publications: a Case Study from Leo XIII to Francis}},<br>
+            author = {Castano, Silvana and Ferrara, Alfio and Montanelli, Stefano and Periti, Francesco},<br>
+            booktitle = {Proceedings of the 30th Italian Symposium on Advanced Database Systems (SEBD)},<br>
+            volume = {3194},<br>
+            pages = {231--243},<br>
+            year = {2022},<br>
+            publisher = "CEUR-WS",<br>
+            address = "Tirrenia (PI), Italy",<br>
+            month = jun,<br>
+            url = "https://ceur-ws.org/Vol-3194/paper29.pdf"}
+          </code>
+        </div>
+      </div>
+      <hr>
+
+<!-- New ref. -->
+      <div style="display: flex; align-items: center;">
+        <div style="width: 50%; float: left;">
+          <p style="margin-right: 15px; font-size: 12px;"><b>Periti, Francesco</b>, Ferrara, Alfio, Montanelli, Stefano, and Ruskov, Martin. (2022). What is done is done: An incremental approach to semantic shift detection. In Proceedings of the 3rd Workshop on Computational Approaches to Historical Language Change (pp. 33–43). Dublin, Ireland: Association for Computational Linguistics. doi:10.18653/v1/2022.lchange-1.4. <a href="https://aclanthology.org/2022.lchange-1.4">https://aclanthology.org/2022.lchange-1.4</a></p>
+        </div>
+        <div style="width: 50%; float: right;">
+          <code style="font-size: 10px; line-height: 12px; display:block;">
+            @InProceedings{periti2022what,<br>
+            title = {{What is Done is Done: an Incremental Approach to Semantic Shift Detection}},<br>
+            author = "Periti, Francesco  and Ferrara, Alfio  and Montanelli, Stefano  and Ruskov, Martin",<br>
+            editor = "Tahmasebi, Nina  and Montariol, Syrielle  and Kutuzov, Andrey  and Hengchen, Simon  and Dubossarsky, Haim  and Borin, Lars",<br>
+            booktitle = "Proceedings of the 3rd Workshop on Computational Approaches to Historical Language Change",<br>
+            month = may,<br>
+            year = "2022",<br>
+            address = "Dublin, Ireland",<br>
+            publisher = "Association for Computational Linguistics",<br>
+            url = "https://aclanthology.org/2022.lchange-1.4",<br>
+            doi = "10.18653/v1/2022.lchange-1.4",<br>
+            pages = "33--43"}
+          </code>
+        </div>
+      </div>
+      <hr>
+
+<!-- New ref. -->
+      <div style="display: flex; align-items: center;">
+        <div style="width: 50%; float: left;">
+          <p style="margin-right: 15px; font-size: 12px;">Castano, Silvana, Ferrara, Alfio, Montanelli, Stefano, and <b>Periti, Francesco</b>. (2021). From Digital to Computational Humanities: The VAST Project Vision. In Proc. of the 29th Italian Symposium on Advanced Database Systems (SEBD) (Vol. 2994, pp. 24-35). CEUR-WS. <a href="https://ceur-ws.org/Vol-2994/paper3.pdf">https://ceur-ws.org/Vol-2994/paper3.pdf</a></p>
+        </div>
+        <div style="width: 50%; float: right;">
+          <code style="font-size: 10px; line-height: 12px; display:block;">
+            @InProceedings{castano2021digital,<br>
+            title = {{From Digital to Computational Humanities: The VAST Project Vision}},<br>
+            author = {Castano, Silvana and Ferrara, Alfio and Montanelli, Stefano and Periti, Francesco},<br>
+            booktitle = {Proc. of the 29th Italian Symposium on Advanced Database Systems (SEBD)},<br>
+            volume = {2994},<br>
+            pages = {24--35},<br>
+            year = {2021},<br>
+            publisher = "CEUR-WS",<br>
+            month = sep,<br>
+            url = {https://ceur-ws.org/Vol-2994/paper3.pdf},<br>
+            address = "Pizzo Calabro (VV), Italy"}
+          </code>
+        </div>
+      </div>
+      <hr>
+
+<!-- New ref. -->
+      <div style="display: flex; align-items: center;">
+        <div style="width: 50%; float: left;">
+          <p style="margin-right: 15px; font-size: 12px;">Castano, Silvana, Ferrara, Alfio, Giannini, Giulia, Montanelli, Stefano, and <b>Periti, Francesco</b>. (2021). A computational history approach to interpretation and analysis of moral European values: The VAST research project. In International Workshop on Computational History, HistoInformatics (Vol. 2981, pp. 1–9). CEUR-WS. <a href="https://ceur-ws.org/Vol-2981/paper7.pdf">https://ceur-ws.org/Vol-2981/paper7.pdf</a></p>
+        </div>
+        <div style="width: 50%; float: right;">
+          <code style="font-size: 10px; line-height: 12px; display:block;">
+            @InProceedings{castano2021computational,<br>
+            title = {{A Computational History Approach to Interpretation and Analysis of Moral European Values: the VAST Research Project}},<br>
+            author = {Castano, Silvana and Ferrara, Alfio and Giannini, Giulia and Montanelli, Stefano and Periti, Francesco},<br>
+            booktitle = {International Workshop on Computational History, HistoInformatics},<br>
+            volume = {2981},<br>
+            pages = {1--9},<br>
+            year = {2021},<br>
+            publisher = "CEUR-WS",<br>
+            month = sep,<br>
+            url = {https://ceur-ws.org/Vol-2981/paper7.pdf}}
+          </code>
+        </div>
+      </div>
+      <hr>
+
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
